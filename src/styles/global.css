@@ -1,0 +1,56 @@
+html {
+  font-family: 'Inter', sans-serif;
+  font-size: var(--font-size-default);
+  color: var(--color-grayish-blue);
+}
+
+body {
+  height: 100vh;
+  padding: 5rem 13rem;
+}
+
+.container {
+  height: 100%;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr 1fr;
+  grid-template-areas: 
+    "nav nav nav"
+    "main-image main-image aside"
+    "content1 content2 aside"
+    "content3 content4 content5"
+  ;
+  gap: 2rem;
+}
+
+nav {
+  grid-area: nav;
+}
+
+aside {
+  grid-area: aside;
+}
+
+.main-image {
+  grid-area: main-image;
+  width: 100%;
+  height: 100%;
+}
+
+#content1 {
+  grid-area: content1;
+}
+#content2 {
+  grid-area: content2;
+}
+#content3 {
+  grid-area: content3;
+}
+#content4 {
+  grid-area: content4;
+}
+#content5 {
+  grid-area: content5;
+}
+
