@@ -1,0 +1,5 @@
+#content1 {
+  color: var(--color-very-dark-blue);
+  font-size: 4rem;
+  font-weight: var(--font-weight-800);
+}
