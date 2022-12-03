@@ -2,6 +2,8 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 1.5rem;
+
+  padding-block: 2rem;
 }
 
 .lower-content-wrapper > div {
@@ -14,7 +16,7 @@
 }
 
 .lower-content-wrapper > div > h4 {
-  font-size: var(--font-size-m);
+  font-size: var(--font-size-s);
   font-weight: var(--font-weight-700);
   color: var(--color-very-dark-blue);
 }
