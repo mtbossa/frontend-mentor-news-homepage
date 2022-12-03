@@ -55,3 +55,15 @@ aside {
   grid-area: content5;
 }
 
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link-orange:hover {
+  color: var(--soft-orange);
+}
+
+.link-red:hover {
+  color: var(--soft-red);
+}
