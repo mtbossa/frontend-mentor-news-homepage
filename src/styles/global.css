@@ -39,6 +39,36 @@ aside {
   height: 100%;
 }
 
+.test {
+  grid-area: test;
+}
+
+@media (width <= 500px) {
+  body {
+    height: auto;
+    padding-block: .5rem;
+    padding-inline: 1rem;
+  }
+
+  .container {
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+      "nav"
+      "test"
+      "main-image"
+      "content1"
+      "aside"
+      "content2"
+      "content3"
+      "content4"
+      "content5"
+    ;
+  }
+}
+
 #content1 {
   grid-area: content1;
 }
