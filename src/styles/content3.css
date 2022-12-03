@@ -1,0 +1,24 @@
+#content3 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1.5rem;
+}
+
+#content3 > div {
+  display: grid;
+}
+
+#content3 > div > h3 {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-700);
+}
+
+#content3 > div > h4 {
+  font-size: var(--font-size-m);
+  font-weight: var(--font-weight-700);
+  color: var(--color-very-dark-blue);
+}
+
+#content3 > div > p {
+  align-self: flex-end;
+}

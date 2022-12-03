@@ -1,0 +1,24 @@
+.lower-content-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1.5rem;
+}
+
+.lower-content-wrapper > div {
+  display: grid;
+}
+
+.lower-content-wrapper > div > h3 {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-700);
+}
+
+.lower-content-wrapper > div > h4 {
+  font-size: var(--font-size-m);
+  font-weight: var(--font-weight-700);
+  color: var(--color-very-dark-blue);
+}
+
+.lower-content-wrapper > div > p {
+  align-self: flex-end;
+}
