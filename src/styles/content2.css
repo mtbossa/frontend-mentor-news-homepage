@@ -1,3 +1,18 @@
 #content2 {
+  display: grid;
+}
+
+#content2 a {
+  display: block;
+  width: fit-content;
+  align-self: flex-end;
+  padding: .8rem 2rem;
+
+  font-weight: var(--font-weight-700);
+  text-decoration: none;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--color-off-white);
   
+  background-color: var(--soft-red);
 }
