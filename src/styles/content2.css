@@ -16,3 +16,7 @@
   
   background-color: var(--soft-red);
 }
+
+#content2 a:hover {
+  background-color: var(--color-very-dark-blue);
+}
